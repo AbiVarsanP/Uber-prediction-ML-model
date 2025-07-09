@@ -25,19 +25,20 @@ This project is a simple **machine learning web application** built using **Flas
 
 Uber-prediction-ML-model/
 │
-├── MLmodel.ipynb # Notebook to train the model
-├── model.pkl # Trained model saved with pickle
-├── app.py # Flask application script
-├── templates/
-│ └── index.html # Web UI template
-├── static/
-│ └── style.css # Styling for the UI
-├── requirements.txt # All required packages
-└── README.md # You're reading it!
+├── MLmodel.ipynb # Notebook to train the ML model
+├── model.pkl # Trained model saved using pickle
+├── app.py # Flask backend application
+├── requirements.txt # List of Python dependencies
+├── README.md # Project documentation
+│
+├── templates/ # HTML templates folder
+│ └── index.html # Web interface form
+│
+└── static/ # Static assets folder
+└── style.css # CSS styling for frontend
+
 
 yaml
-Copy
-Edit
 
 ---
 
@@ -50,22 +51,16 @@ git clone https://github.com/AbiVarsanP/Uber-prediction-ML-model.git
 cd Uber-prediction-ML-model
 2. Install Dependencies
 bash
-Copy
-Edit
 pip install -r requirements.txt
 3. Train the ML Model
 Open the notebook in Jupyter and run all the cells:
 
 bash
-Copy
-Edit
 jupyter notebook MLmodel.ipynb
 This will generate model.pkl.
 
 4. Run the Flask App
 bash
-Copy
-Edit
 python app.py
 5. Access the App in Browser
 Open: http://127.0.0.1:5000/

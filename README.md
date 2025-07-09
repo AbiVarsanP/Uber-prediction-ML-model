@@ -1,6 +1,3 @@
----
-
-```markdown
 # 🚖 Uber Rides Prediction - ML Model Web App
 
 This project is a simple **machine learning web application** built using **Flask**. It predicts the number of Uber rides based on input features such as price, population, income, and parking cost.

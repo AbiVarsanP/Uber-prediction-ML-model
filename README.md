@@ -37,7 +37,7 @@ Uber-prediction-ML-model/
 │   └── index.html        # Web interface form
 │
 └── static/               # Static assets folder
-└── style.css         # CSS styling for frontend
+    └── style.css         # CSS styling for frontend
 
 ````
 
